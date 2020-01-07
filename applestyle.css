@@ -1,0 +1,383 @@
+
+body{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ *{ text-decoration: none;
+}
+
+a:hover {text-decoration: underline;}
+
+
+
+.navbar{
+   background-color: #323232;
+   opacity: .96;
+   height: 28px;
+    display: block;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    min-width: 1024px;
+    
+    text-align: center;
+    align-items: center;
+    z-index: 10;
+    padding-top: 13px;
+}
+
+.navbar > span > a {text-decoration: none;
+    color: white;
+    font-size: 11px;
+}
+
+.navbar > span {
+    padding-right: 1.35em;
+    padding-left: 1.35em;
+}
+
+.navbar > span :hover {
+ color: #9595;
+}
+
+.pic1{
+    height: 950px;
+    width: 100%;
+    position: static;
+   background-image: url("pic1.jpg");
+   background-repeat: no-repeat;
+   background-position-x: center;
+   background-position-y: 237px;
+   background-color: black;
+   margin-bottom: 12px;
+
+}
+
+#text1a{
+    left: 41%;
+    position: absolute;
+    font-size: 42px;
+    color:white;
+    top: 7%;
+    font-weight:bold;
+    
+}
+
+#text1b{
+    left: 35%;
+    position: absolute;
+    font-size: 24px;
+    color:white;
+    top: 21%;
+}
+
+#text1c{
+    left: 41%;
+    position: absolute;
+    font-size: 19px;
+    color: #6bf;
+    top: 30%;
+    text-decoration: none;
+    white-space: pre;
+}
+
+
+
+.linkcolor a{
+    color: #6bf;
+}
+.linkcolorw a{
+    color: white;
+}
+
+.pic2{
+    height: 617px;
+    position: relative;
+   background-image: url("pic2.jpg");
+   background-repeat: no-repeat;
+   background-position-x:  center;
+   background-position-y: 0px;
+   background-color: black;
+   margin-bottom: 12px;
+}
+#text2a{   
+    left: 38%;
+    position: absolute;
+    font-size: 41px;
+    color:white;
+    top: 2%;
+    font-weight: bold;
+}
+
+#text2b{   
+    left: 33%;
+    position: absolute;
+    font-size: 22px;
+    color:white;
+    top: 14%;
+    
+}
+
+#text2c{   
+    left: 37%;
+    position: absolute;
+    font-size: 14px;
+    color:grey;
+    top: 21%;
+}
+#text2d{
+    left: 40%;
+    position: absolute;
+    font-size: 19px;
+    top: 26%;
+    text-decoration: none;
+    white-space: pre;
+}
+.pic3{
+    height: 625px;
+    position: relative;
+   background-image: url("pic3.jpg");
+   background-repeat: no-repeat;
+   background-position-x:  center;
+   background-position-y: 0px;
+   background-color: white;
+   margin-bottom: 12px;
+}
+
+#text3a{   
+    left: 41%;
+    position: absolute;
+    font-size: 41px;
+    color:black;
+    top: 2%;
+    font-weight: bold;
+}
+
+#text3b{   
+    left: 36%;
+    position: absolute;
+    font-size: 22px;
+    color:black;
+    top: 14%;
+    
+}
+
+#text3c{   
+    left: 40%;
+    position: absolute;
+    font-size: 14px;
+    color:grey;
+    top: 21%;
+}
+#text3d {
+    left: 42%;
+    position: absolute;
+    font-size: 19px;
+    color: #6bf;
+    top: 26%;
+    text-decoration: none;
+    white-space: pre;
+}
+
+.pic4{
+   background-image: url("pic4.jpg");
+   }
+
+#text4a{
+    left: 22%;
+    position: absolute;
+    font-size: 34px;
+    color:white;
+    top: 35%;}
+
+#text4b{
+        left: 33%;
+        position: absolute;
+        font-size: 15px;
+        color:#6bf;
+        top: 48%;}
+
+.pic5{
+   background-image: url("https://www.apple.com/v/home/ep/images/promos/watch-series-5/tile__cauwwcyyn9hy_small.jpg");
+}
+
+
+
+.watchpic{
+    position:absolute; top:56px; left:310px
+}
+
+#text5a{
+    left: 39%;
+    position: absolute;
+    font-size: 15px;
+    color:black;
+    top: 22%;}
+
+#text5b{
+        left: 48%;
+        position: absolute;
+        font-size: 13px;
+        color:#6bf;
+        top: 30%;}
+
+.pic6{
+   background-image: url("pic6.jpg");
+}
+
+#text6a{
+    left: 37%;
+    position: absolute;
+    font-size: 18px;
+    color: white;
+    top: 20%;}
+
+#text6b{
+        left: 37%;
+        position: absolute;
+        font-size: 15px;
+        color:white;
+        top: 27%;}
+
+#text6c{
+        left: 36%;
+        position: absolute;
+        font-size: 15px;
+        top: 37%;}
+
+#tvplus{
+    position:relative; top:60px; left:276px;
+}
+
+
+
+.pic7{
+   background-image: url("pic7.jpg");
+}
+
+#text7a{
+    left: 27%;
+    position: absolute;
+    font-size: 16px;
+    color:black;
+    top: 21%;}
+
+#text7b{
+    left: 39%;
+    position: absolute;
+    font-size: 13px;
+    color:#6bf;
+    top: 32%;}
+
+#cardlog{
+    position:relative; top:72px; left:221px
+}
+
+.pic8{
+   background-image: url("pic8.jpg");
+}
+
+#text8a{
+    left: 39%;
+    position: absolute;
+    font-size: 16px;
+    color:white;
+    top: 17%;}
+
+#text8b{
+    left: 36%;
+    position: absolute;
+    font-size: 16px;
+    top: 27%;}
+
+#arcade{
+    position:relative; top:51px; left:258px
+}
+
+.pic9{
+   background-image: url("pic9.jpg");
+}
+
+#text9a{
+    left: 33%;
+    position: absolute;
+    font-size: 16px;
+    color:black;
+    top: 22%;}
+
+#text9b{
+    left: 39%;
+    position: absolute;
+    font-size: 14px;
+    top: 29%;}
+
+#ipadlog{
+    position:relative; top:51px; left:297px
+}
+
+
+.row{
+    float: left;
+    width: 100%;
+
+}
+  
+  .column {
+    display: inline-block;
+    width:49%;
+    padding: 0px;
+    float: left;
+    margin: 6px;
+  }
+
+  .pic4-9{
+width: 100%;
+background-size: cover;
+height: 580px;
+position: relative;
+background-repeat: no-repeat;
+  }
+
+
+.footer{
+    background-color: #f5f5f7;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    color: #515154;
+    align-items: center;
+    font-family: 'Lato', Arial, sans-serif;
+    
+}
+
+.footer .container-1000{
+    width: 1000px;
+    margin: auto;
+}
+
+.ul-col{
+    width: 20%;
+    display: inline-block;
+    display: inline-block;
+    float: left;
+}
+
+.ul-row{
+float: left;
+width: 100%;
+}
+
+.ul-row a{
+    color:#515154;
+}
+
+.bord {border-bottom: 1px solid #d2d2d7;
+
+}
+
+.ul-col ul {
+    padding: 0;
+}
+
